@@ -30,9 +30,9 @@ class _HomeScreenState extends State<HomeScreen> {
     final userPreference = Provider.of<UserViewModel>(context);
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.blue,
         elevation: 0,
-        title: const Text("Home Page"),
+        title: const Text("Movies",style: TextStyle(fontWeight: FontWeight.bold)),
         centerTitle: true,
         automaticallyImplyLeading: false,
         actions: [
