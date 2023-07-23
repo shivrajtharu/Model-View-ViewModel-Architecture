@@ -89,7 +89,6 @@ class _HomeScreenState extends State<HomeScreen> {
                   },
                 );
             }
-            return Container();
           }
         ),
       )

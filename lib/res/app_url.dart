@@ -9,6 +9,6 @@ class AppUrl{
 
   static var registerApiEndPoint = '$baseUrl/api/register';
 
-  static var moviesListEndPoint = '$baseUrl/movies_list';
+  static var moviesListEndPoint = '$moviesBaseUrl/movies_list';
 
 }
