@@ -42,7 +42,7 @@ class _LoginViewState extends State<LoginView> {
     return Container(
       decoration:const BoxDecoration(
           image: DecorationImage(
-              image: AssetImage('assets/images/img.png'),fit:BoxFit.cover)),
+              image: AssetImage('assets/images/login.png'),fit:BoxFit.cover)),
       child: Scaffold(
         resizeToAvoidBottomInset: false,
         backgroundColor: Colors.transparent,
